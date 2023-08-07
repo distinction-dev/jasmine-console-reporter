@@ -1,26 +1,33 @@
-# TS Frontend Template
+# Jasmine Console Reporter
 
-> Template repository for us to use to create TS based frontend packages
+> Jasmine Console Reporter class for detailed test results into console.
 
 ## Install
 
 ```bash
-npm install @distinction-dev/package-name
+npm install jasmine-console-reporter-ts
 ```
 
 or
 
 ```bash
-yarn add @distinction-dev/package-name
+yarn add jasmine-console-reporter-ts
 ```
 
 ## Usage
 
 ```ts
-import { util1, util2 } from '@distinction-dev/package-name';
+import Jasmine from "jasmine";
+import ConsoleReporter from "jasmine-console-reporter-ts";
 
+const jasmine: Jasmine = new Jasmine();
+const consoleReporter: ConsoleReporter = new ConsoleReporter();
+
+jasmine.loadConfigFile("test/support/jasmine.json");
+jasmine.addReporter(consoleReporter);
+jasmine.configureDefaultReporter({
+  showColors: true,
+});
+
+jasmine.execute();
 ```
-
-## Docs
-
-Automatically generated docs are available [here](https://distinction-dev.github.io/package-name)
