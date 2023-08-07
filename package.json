@@ -1,5 +1,5 @@
 {
-  "name": "jasmine-console-reporter",
+  "name": "jasmine-console-reporter-ts",
   "version": "0.0.0-development",
   "description": "Jasmine Console Reporter to add detailed test results to console",
   "scripts": {
@@ -33,13 +33,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/distinction-dev/jasmine-console-reporter.git"
+    "url": "git+https://github.com/distinction-dev/jasmine-console-reporter-ts.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Himanshu Pant",
-    "email": "himanshupant127@gmail.com",
-    "url": "https://github.com/killdozerx2"
+    "name": "Bhavin Babariya",
+    "email": "bhavinbabariya03@gmail.com",
+    "url": "https://github.com/bhavinbabariya03"
   },
   "keywords": [
     "typescript",
@@ -47,9 +47,9 @@
     "console reporter"
   ],
   "bugs": {
-    "url": "https://github.com/distinction-dev/jasmine-console-reporter/issues"
+    "url": "https://github.com/distinction-dev/jasmine-console-reporter-ts/issues"
   },
-  "homepage": "https://github.com/distinction-dev/jasmine-console-reporter#readme",
+  "homepage": "https://github.com/distinction-dev/jasmine-console-reporter-ts#readme",
   "devDependencies": {
     "@types/chai": "^4.3.3",
     "@types/mocha": "^10.0.0",
@@ -59,6 +59,7 @@
     "chai": "^4.3.6",
     "codecov": "^3.8.3",
     "commitizen": "^4.2.4",
+    "conventional-changelog-conventionalcommits": "^6.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
@@ -89,6 +90,7 @@
     ]
   },
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   }
 }

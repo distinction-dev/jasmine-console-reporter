@@ -74,3 +74,4 @@ class CustomReporter implements Reporter {
 }
 
 export default CustomReporter;
+export * from "./types";
