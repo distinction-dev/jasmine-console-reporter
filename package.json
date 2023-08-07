@@ -1,5 +1,5 @@
 {
-  "name": "@distinction-dev/backend-package-name",
+  "name": "@distinction-dev/jasmine-console-reporter",
   "version": "0.0.0-development",
   "description": "Template repository for us to use to create TS based backend packages",
   "scripts": {
@@ -57,6 +57,7 @@
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "chai": "^4.3.6",
+    "chalk": "4.1.2",
     "codecov": "^3.8.3",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
