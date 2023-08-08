@@ -5,20 +5,20 @@
 ## Install
 
 ```bash
-npm install jasmine-console-reporter-ts
+npm install jasmine-console-reporter
 ```
 
 or
 
 ```bash
-yarn add jasmine-console-reporter-ts
+yarn add jasmine-console-reporter
 ```
 
 ## Usage
 
 ```ts
 import Jasmine from "jasmine";
-import ConsoleReporter from "jasmine-console-reporter-ts";
+import ConsoleReporter from "jasmine-console-reporter";
 
 const jasmine: Jasmine = new Jasmine();
 const consoleReporter: ConsoleReporter = new ConsoleReporter();
