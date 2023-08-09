@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import { JasmineStartedInfo, Reporter, SuiteResult, SpecResult } from "./types";
 
-class CustomReporter implements Reporter {
+export class CustomReporter implements Reporter {
   specCount: number;
   specSuccessCount: number;
 
@@ -72,5 +72,3 @@ class CustomReporter implements Reporter {
     );
   }
 }
-
-export default CustomReporter;
